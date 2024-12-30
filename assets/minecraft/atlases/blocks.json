@@ -1,0 +1,47 @@
+{
+	"sources": [
+		{
+			"type": "paletted_permutations",
+			"textures": [
+				"datapack_construct:item/longsword/blade",
+				"datapack_construct:item/longsword/guard",
+				"datapack_construct:item/longsword/pommel"
+			],
+			"palette_key": "datapack_construct:materials/trim_palette",
+			"permutations": {
+				"quartz": "datapack_construct:materials/quartz",
+				"iron": "datapack_construct:materials/iron",
+				"gold": "datapack_construct:materials/gold",
+				"diamond": "datapack_construct:materials/diamond",
+				"netherite": "datapack_construct:materials/netherite",
+				"redstone": "datapack_construct:materials/redstone",
+				"copper": "datapack_construct:materials/copper",
+				"emerald": "datapack_construct:materials/emerald",
+				"lapis": "datapack_construct:materials/lapis",
+				"amethyst": "datapack_construct:materials/amethyst"
+			}
+		},
+		{
+			"type": "paletted_permutations",
+			"textures": [
+				"datapack_construct:item/stick",
+				"datapack_construct:item/longsword/handle"
+			],
+			"palette_key": "datapack_construct:materials/trim_palette",
+			"permutations": {
+				"oak": "datapack_construct:materials/wood/oak",
+				"spruce": "datapack_construct:materials/wood/spruce",
+				"birch": "datapack_construct:materials/wood/birch",
+				"jungle": "datapack_construct:materials/wood/jungle",
+				"acacia": "datapack_construct:materials/wood/acacia",
+				"dark_oak": "datapack_construct:materials/wood/dark_oak",
+				"mangrove": "datapack_construct:materials/wood/mangrove",
+				"cherry": "datapack_construct:materials/wood/cherry",
+				"pale_oak": "datapack_construct:materials/wood/pale_oak",
+				"bamboo": "datapack_construct:materials/wood/bamboo",
+				"crimson": "datapack_construct:materials/wood/crimson",
+				"warped": "datapack_construct:materials/wood/warped"
+			}
+		}
+	]
+}

@@ -1,0 +1,101 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "select",
+				"property": "custom_model_data",
+				"index": 0,
+				"fallback": {
+					"type": "empty"
+				},
+				"cases": [
+					{
+						"when": "oak",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_oak"
+						}
+					},
+					{
+						"when": "spruce",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_spruce"
+						}
+					},
+					{
+						"when": "birch",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_birch"
+						}
+					},
+					{
+						"when": "jungle",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_jungle"
+						}
+					},
+					{
+						"when": "acacia",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_acacia"
+						}
+					},
+					{
+						"when": "dark_oak",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_dark_oak"
+						}
+					},
+					{
+						"when": "mangrove",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_mangrove"
+						}
+					},
+					{
+						"when": "cherry",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_cherry"
+						}
+					},
+					{
+						"when": "pale_oak",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_pale_oak"
+						}
+					},
+					{
+						"when": "bamboo",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_bamboo"
+						}
+					},
+					{
+						"when": "crimson",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_crimson"
+						}
+					},
+					{
+						"when": "warped",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/stick_warped"
+						}
+					}
+				]
+			}
+		]
+	}
+}
