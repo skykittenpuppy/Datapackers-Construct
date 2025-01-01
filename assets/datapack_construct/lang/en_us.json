@@ -1,0 +1,35 @@
+{
+	"datapack_construct.lore": " %1$s: %2$s",
+
+	"datapack_construct.item.stick": "%1$s Stick",
+	"datapack_construct.item.longsword": "%1$s Longsword",
+
+	"datapack_construct.component.blade": "Blade",
+	"datapack_construct.component.guard": "Guard",
+	"datapack_construct.component.handle": "Handle",
+	"datapack_construct.component.pommel": "Pommel",
+
+	"datapack_construct.material.amethyst": "Amethyst",
+	"datapack_construct.material.copper": "Copper",
+	"datapack_construct.material.diamond": "Diamond",
+	"datapack_construct.material.emerald": "Emerald",
+	"datapack_construct.material.gold": "Gold",
+	"datapack_construct.material.iron": "Iron",
+	"datapack_construct.material.lapis": "Lapis",
+	"datapack_construct.material.netherite": "Netherite",
+	"datapack_construct.material.quartz": "Quartz",
+	"datapack_construct.material.redstone": "Redstone",
+
+	"datapack_construct.material.oak": "Oak",
+	"datapack_construct.material.spruce": "Spruce",
+	"datapack_construct.material.birch": "Birch",
+	"datapack_construct.material.jungle": "Jungle",
+	"datapack_construct.material.acacia": "Acacia",
+	"datapack_construct.material.dark_oak": "Dark Oak",
+	"datapack_construct.material.mangrove": "Mangrove",
+	"datapack_construct.material.cherry": "Cherry",
+	"datapack_construct.material.pale_oak": "Pale Oak",
+	"datapack_construct.material.bamboo": "Bamboo",
+	"datapack_construct.material.crimson": "Crimson",
+	"datapack_construct.material.warped": "Warped"
+}

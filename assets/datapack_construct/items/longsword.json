@@ -171,86 +171,6 @@
 				},
 				"cases": [
 					{
-						"when": "amethyst",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/longsword/pommel_amethyst"
-						}
-					},
-					{
-						"when": "copper",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/longsword/pommel_copper"
-						}
-					},
-					{
-						"when": "diamond",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/longsword/pommel_diamond"
-						}
-					},
-					{
-						"when": "emerald",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/longsword/pommel_emerald"
-						}
-					},
-					{
-						"when": "gold",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/longsword/pommel_gold"
-						}
-					},
-					{
-						"when": "iron",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/longsword/pommel_iron"
-						}
-					},
-					{
-						"when": "lapis",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/longsword/pommel_lapis"
-						}
-					},
-					{
-						"when": "netherite",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/longsword/pommel_netherite"
-						}
-					},
-					{
-						"when": "quartz",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/longsword/pommel_quartz"
-						}
-					},
-					{
-						"when": "redstone",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/longsword/pommel_redstone"
-						}
-					}
-				]
-			},
-			{
-				"type": "select",
-				"property": "custom_model_data",
-				"index": 3,
-				"fallback": {
-					"type": "empty"
-				},
-				"cases": [
-					{
 						"when": "oak",
 						"model": {
 							"type": "model",
@@ -332,6 +252,86 @@
 						"model": {
 							"type": "model",
 							"model": "datapack_construct:item/longsword/handle_warped"
+						}
+					}
+				]
+			},
+			{
+				"type": "select",
+				"property": "custom_model_data",
+				"index": 3,
+				"fallback": {
+					"type": "empty"
+				},
+				"cases": [
+					{
+						"when": "amethyst",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/pommel_amethyst"
+						}
+					},
+					{
+						"when": "copper",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/pommel_copper"
+						}
+					},
+					{
+						"when": "diamond",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/pommel_diamond"
+						}
+					},
+					{
+						"when": "emerald",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/pommel_emerald"
+						}
+					},
+					{
+						"when": "gold",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/pommel_gold"
+						}
+					},
+					{
+						"when": "iron",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/pommel_iron"
+						}
+					},
+					{
+						"when": "lapis",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/pommel_lapis"
+						}
+					},
+					{
+						"when": "netherite",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/pommel_netherite"
+						}
+					},
+					{
+						"when": "quartz",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/pommel_quartz"
+						}
+					},
+					{
+						"when": "redstone",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/pommel_redstone"
 						}
 					}
 				]
