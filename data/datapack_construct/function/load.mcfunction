@@ -1,39 +1,76 @@
+data modify storage datapack_construct:const Materials set value {\
+	amethyst:	{"color": "#7f3fb2", "translate": "datapack_construct.material.amethyst"},	\
+	copper:		{"color": "#d87f33", "translate": "datapack_construct.material.copper"},	\
+	diamond:	{"color": "#5cdbd5", "translate": "datapack_construct.material.diamond"},	\
+	emerald:	{"color": "#00d93a", "translate": "datapack_construct.material.emerald"},	\
+	gold:		{"color": "#faee4d", "translate": "datapack_construct.material.gold"},		\
+	iron:		{"color": "#a7a7a7", "translate": "datapack_construct.material.iron"},		\
+	lapis:		{"color": "#4a80ff", "translate": "datapack_construct.material.lapis"},		\
+	netherite:	{"color": "#404040", "translate": "datapack_construct.material.netherite"},	\
+	quartz:		{"color": "#fffcf5", "translate": "datapack_construct.material.quartz"},	\
+	redstone:	{"color": "#ff0000", "translate": "datapack_construct.material.redstone"},	\
+																							\
+	oak:		{"color": "#8f7748", "translate": "datapack_construct.material.oak"},		\
+	spruce:		{"color": "#815631", "translate": "datapack_construct.material.spruce"},	\
+	birch:		{"color": "#f7e9a3", "translate": "datapack_construct.material.birch"},		\
+	jungle:		{"color": "#976d4d", "translate": "datapack_construct.material.jungle"},	\
+	acacia:		{"color": "#d87f33", "translate": "datapack_construct.material.acacia"},	\
+	dark_oak:	{"color": "#664c33", "translate": "datapack_construct.material.dark_oak"},	\
+	mangrove:	{"color": "#993333", "translate": "datapack_construct.material.mangrove"},	\
+	cherry:		{"color": "#d1b1a1", "translate": "datapack_construct.material.cherry"},	\
+	pale_oak:	{"color": "#ffffff", "translate": "datapack_construct.material.pale_oak"},	\
+	bamboo:		{"color": "#e5e533", "translate": "datapack_construct.material.bamboo"},	\
+	crimson:	{"color": "#943f61", "translate": "datapack_construct.material.crimson"},	\
+	warped:		{"color": "#3a8e8c", "translate": "datapack_construct.material.warped"}		\
+}
+
 execute as @e run clear
-
 setblock -146 71 -267 chest[facing=west,type=right]
-item replace block -146 71 -267 container.0 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.amethyst"}]}',  minecraft:custom_model_data={strings:["amethyst",  "amethyst",  "amethyst",  "oak"]}]
-item replace block -146 71 -267 container.1 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.copper"}]}',    minecraft:custom_model_data={strings:["copper",    "copper",    "copper",    "oak"]}]
-item replace block -146 71 -267 container.2 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.diamond"}]}',   minecraft:custom_model_data={strings:["diamond",   "diamond",   "diamond",   "oak"]}]
-item replace block -146 71 -267 container.3 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.emerald"}]}',   minecraft:custom_model_data={strings:["emerald",   "emerald",   "emerald",   "oak"]}]
-item replace block -146 71 -267 container.4 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.gold"}]}',      minecraft:custom_model_data={strings:["gold",      "gold",      "gold",      "oak"]}]
-item replace block -146 71 -267 container.5 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.iron"}]}',      minecraft:custom_model_data={strings:["iron",      "iron",      "iron",      "oak"]}]
-item replace block -146 71 -267 container.6 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.lapis"}]}',     minecraft:custom_model_data={strings:["lapis",     "lapis",     "lapis",     "oak"]}]
-item replace block -146 71 -267 container.7 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.netherite"}]}', minecraft:custom_model_data={strings:["netherite", "netherite", "netherite", "oak"]}]
-item replace block -146 71 -267 container.8 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.quartz"}]}',    minecraft:custom_model_data={strings:["quartz",    "quartz",    "quartz",    "oak"]}]
-item replace block -146 71 -267 container.9 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.redstone"}]}',  minecraft:custom_model_data={strings:["redstone",  "redstone",  "redstone",  "oak"]}]
-
-item replace block -146 71 -267 container.22 with poisonous_potato
-function datapack_construct:longsword {blade: diamond, guard: emerald, handle: bamboo, pommel: copper}
-
 setblock -146 71 -266 chest[facing=west,type=left]
-item replace block -146 71 -266 container.0 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.oak"}]}',      minecraft:custom_model_data={strings:["oak"]}]
-item replace block -146 71 -266 container.1 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.spruce"}]}',   minecraft:custom_model_data={strings:["spruce"]}]
-item replace block -146 71 -266 container.2 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.birch"}]}',    minecraft:custom_model_data={strings:["birch"]}]
-item replace block -146 71 -266 container.3 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.jungle"}]}',   minecraft:custom_model_data={strings:["jungle"]}]
-item replace block -146 71 -266 container.4 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.acacia"}]}',   minecraft:custom_model_data={strings:["acacia"]}]
-item replace block -146 71 -266 container.5 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.dark_oak"}]}', minecraft:custom_model_data={strings:["dark_oak"]}]
-item replace block -146 71 -266 container.6 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.mangrove"}]}', minecraft:custom_model_data={strings:["mangrove"]}]
-item replace block -146 71 -266 container.7 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.cherry"}]}',   minecraft:custom_model_data={strings:["cherry"]}]
-item replace block -146 71 -266 container.8 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.pale_oak"}]}', minecraft:custom_model_data={strings:["pale_oak"]}]
-item replace block -146 71 -266 container.9 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.bamboo"}]}',   minecraft:custom_model_data={strings:["bamboo"]}]
-item replace block -146 71 -266 container.10 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.crimson"}]}', minecraft:custom_model_data={strings:["crimson"]}]
-item replace block -146 71 -266 container.11 with stick[minecraft:item_model="datapack_construct:stick", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.stick", "with": [{"type": "translatable", "translate": "datapack_construct.material.warped"}]}',  minecraft:custom_model_data={strings:["warped"]}]
+
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'block -146 71 -267 container.0',	blade: amethyst,	guard: amethyst,	handle: oak,		pommel: amethyst}
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'block -146 71 -267 container.1',	blade: copper,		guard: copper,		handle: oak,		pommel: copper}
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'block -146 71 -267 container.2',	blade: diamond,		guard: diamond,		handle: oak,		pommel: diamond}
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'block -146 71 -267 container.3',	blade: emerald,		guard: emerald,		handle: oak,		pommel: emerald}
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'block -146 71 -267 container.4',	blade: gold,		guard: gold,		handle: oak,		pommel: gold}
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'block -146 71 -267 container.5',	blade: iron,		guard: iron,		handle: oak,		pommel: iron}
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'block -146 71 -267 container.6',	blade: lapis,		guard: lapis,		handle: oak,		pommel: lapis}
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'block -146 71 -267 container.7',	blade: netherite,	guard: netherite,	handle: oak,		pommel: netherite}
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'block -146 71 -267 container.8',	blade: quartz,		guard: quartz,		handle: oak,		pommel: quartz}
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'block -146 71 -267 container.9',	blade: redstone,	guard: redstone,	handle: oak,		pommel: redstone}
+
+execute as @r[limit=1] run function datapack_construct:pickaxe {where: 'block -146 71 -267 container.18',	head: amethyst,		handle: oak}
+execute as @r[limit=1] run function datapack_construct:pickaxe {where: 'block -146 71 -267 container.19',	head: copper,		handle: oak}
+execute as @r[limit=1] run function datapack_construct:pickaxe {where: 'block -146 71 -267 container.20',	head: diamond,		handle: oak}
+execute as @r[limit=1] run function datapack_construct:pickaxe {where: 'block -146 71 -267 container.21',	head: emerald,		handle: oak}
+execute as @r[limit=1] run function datapack_construct:pickaxe {where: 'block -146 71 -267 container.22',	head: gold,			handle: oak}
+execute as @r[limit=1] run function datapack_construct:pickaxe {where: 'block -146 71 -267 container.23',	head: iron,			handle: oak}
+execute as @r[limit=1] run function datapack_construct:pickaxe {where: 'block -146 71 -267 container.24',	head: lapis,		handle: oak}
+execute as @r[limit=1] run function datapack_construct:pickaxe {where: 'block -146 71 -267 container.25',	head: netherite,	handle: oak}
+execute as @r[limit=1] run function datapack_construct:pickaxe {where: 'block -146 71 -267 container.26',	head: quartz,		handle: oak}
+execute as @r[limit=1] run function datapack_construct:pickaxe {where: 'block -146 71 -266 container.0',	head: redstone,		handle: oak}
+
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.9',	type: oak}
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.10',	type: spruce}
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.11',	type: birch}
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.12',	type: jungle}
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.13',	type: acacia}
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.14',	type: dark_oak}
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.15',	type: mangrove}
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.16',	type: cherry}
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.17',	type: pale_oak}
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.18',	type: bamboo}
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.19',	type: crimson}
+execute as @r[limit=1] run function datapack_construct:stick {where: 'block -146 71 -266 container.20',	type: warped}
+
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'block -146 71 -266 container.25',	blade: emerald,		guard: amethyst,	handle: bamboo,		pommel: copper}
+execute as @r[limit=1] run function datapack_construct:pickaxe {where: 'block -146 71 -266 container.26',	head: emerald,		handle: bamboo}
 
 item replace entity @e container.0 with netherite_sword
-item replace entity @e container.1 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.netherite"}]}', minecraft:custom_model_data={strings:["netherite", "netherite", "netherite", "crimson"]}]
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'entity @s container.1',	blade: netherite,	guard: netherite,	handle: crimson,	pommel: netherite}
 item replace entity @e container.2 with diamond_sword
-item replace entity @e container.3 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.diamond"}]}',   minecraft:custom_model_data={strings:["diamond",   "diamond",   "diamond",   "oak"]}]
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'entity @s container.3',	blade: diamond,		guard: diamond,		handle: oak,		pommel: diamond}
 item replace entity @e container.4 with iron_sword
-item replace entity @e container.5 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.iron"}]}',      minecraft:custom_model_data={strings:["iron",      "iron",      "iron",      "oak"]}]
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'entity @s container.5',	blade: iron,		guard: iron,		handle: oak,		pommel: iron}
 item replace entity @e container.6 with golden_sword
-item replace entity @e container.7 with wooden_sword[minecraft:item_model="datapack_construct:longsword", minecraft:item_name='{"type":"translatable", "translate": "datapack_construct.item.longsword", "with": [{"type": "translatable", "translate": "datapack_construct.material.gold"}]}',      minecraft:lore=['{"type":"translatable", "translate": "datapack_construct.lore", "with": [{"type": "translatable", "translate": "datapack_construct.component.blade"}, {"type": "translatable", "translate": "datapack_construct.material.gold", "color": "#FFAA00"}]}', '{"type":"translatable", "translate": "datapack_construct.lore", "with": [{"type": "translatable", "translate": "datapack_construct.component.guard"}, {"type": "translatable", "translate": "datapack_construct.material.gold", "color": "#FFAA00"}]}', '{"type":"translatable", "translate": "datapack_construct.lore", "with": [{"type": "translatable", "translate": "datapack_construct.component.handle"}, {"type": "translatable", "translate": "datapack_construct.material.oak", "color": "#FFFFFF"}]}', '{"type":"translatable", "translate": "datapack_construct.lore", "with": [{"type": "translatable", "translate": "datapack_construct.component.pommel"}, {"type": "translatable", "translate": "datapack_construct.material.gold", "color": "#FFAA00"}]}'],      minecraft:custom_model_data={strings:["gold",      "gold",      "gold",      "oak"]}]
+execute as @r[limit=1] run function datapack_construct:longsword {where: 'entity @s container.7',	blade: gold,		guard: gold,		handle: oak,		pommel: gold}

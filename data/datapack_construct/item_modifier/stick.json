@@ -1,0 +1,10 @@
+[
+	{
+		"function": "set_name",
+		"target": "item_name",
+		"entity": "this",
+		"name": {"translate": "datapack_construct.item.stick", "with": [
+			{"storage":"datapack_construct:temp", "nbt": "Info.type_name", "interpret": true}
+		]}
+	}
+]

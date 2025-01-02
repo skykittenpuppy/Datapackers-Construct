@@ -1,0 +1,25 @@
+[
+	{
+		"function": "set_name",
+		"target": "item_name",
+		"entity": "this",
+		"name": {"translate": "datapack_construct.item.pickaxe", "with": [
+			{"storage":"datapack_construct:temp", "nbt": "Info.head_name", "interpret": true}
+		]}
+	},
+	{
+		"function": "set_lore",
+		"mode": "replace_all",
+		"entity": "this",
+		"lore": [
+			{"translate": "datapack_construct.lore", "with": [
+				{"translate": "datapack_construct.component.head"},
+				{"storage":"datapack_construct:temp", "nbt": "Info.head_lore", "interpret": true}
+			], "color": "gray", "italic": false},
+			{"translate": "datapack_construct.lore", "with": [
+				{"translate": "datapack_construct.component.handle"},
+				{"storage":"datapack_construct:temp", "nbt": "Info.handle_lore", "interpret": true}
+			], "color": "gray", "italic": false}
+		]
+	}
+]

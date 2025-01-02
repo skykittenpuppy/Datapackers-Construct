@@ -5,7 +5,8 @@
 			"textures": [
 				"datapack_construct:item/longsword/blade",
 				"datapack_construct:item/longsword/guard",
-				"datapack_construct:item/longsword/pommel"
+				"datapack_construct:item/longsword/pommel",
+				"datapack_construct:item/pickaxe/head"
 			],
 			"palette_key": "datapack_construct:materials/trim_palette",
 			"permutations": {
@@ -25,7 +26,8 @@
 			"type": "paletted_permutations",
 			"textures": [
 				"datapack_construct:item/stick",
-				"datapack_construct:item/longsword/handle"
+				"datapack_construct:item/longsword/handle",
+				"datapack_construct:item/pickaxe/handle"
 			],
 			"palette_key": "datapack_construct:materials/trim_palette",
 			"permutations": {

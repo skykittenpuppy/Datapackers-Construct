@@ -1,0 +1,33 @@
+[
+	{
+		"function": "set_name",
+		"target": "item_name",
+		"entity": "this",
+		"name": {"translate": "datapack_construct.item.longsword", "with": [
+			{"storage":"datapack_construct:temp", "nbt": "Info.blade_name", "interpret": true}
+		]}
+	},
+	{
+		"function": "set_lore",
+		"mode": "replace_all",
+		"entity": "this",
+		"lore": [
+			{"translate": "datapack_construct.lore", "with": [
+				{"translate": "datapack_construct.component.blade"},
+				{"storage":"datapack_construct:temp", "nbt": "Info.blade_lore", "interpret": true}
+			], "color": "gray", "italic": false},
+			{"translate": "datapack_construct.lore", "with": [
+				{"translate": "datapack_construct.component.guard"},
+				{"storage":"datapack_construct:temp", "nbt": "Info.guard_lore", "interpret": true}
+			], "color": "gray", "italic": false},
+			{"translate": "datapack_construct.lore", "with": [
+				{"translate": "datapack_construct.component.handle"},
+				{"storage":"datapack_construct:temp", "nbt": "Info.handle_lore", "interpret": true}
+			], "color": "gray", "italic": false},
+			{"translate": "datapack_construct.lore", "with": [
+				{"translate": "datapack_construct.component.pommel"},
+				{"storage":"datapack_construct:temp", "nbt": "Info.pommel_lore", "interpret": true}
+			], "color": "gray", "italic": false}
+		]
+	}
+]

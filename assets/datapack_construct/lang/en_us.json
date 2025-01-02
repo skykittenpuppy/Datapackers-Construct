@@ -3,11 +3,13 @@
 
 	"datapack_construct.item.stick": "%1$s Stick",
 	"datapack_construct.item.longsword": "%1$s Longsword",
+	"datapack_construct.item.pickaxe": "%1$s Pickaxe",
 
 	"datapack_construct.component.blade": "Blade",
 	"datapack_construct.component.guard": "Guard",
 	"datapack_construct.component.handle": "Handle",
 	"datapack_construct.component.pommel": "Pommel",
+	"datapack_construct.component.head": "Head",
 
 	"datapack_construct.material.amethyst": "Amethyst",
 	"datapack_construct.material.copper": "Copper",
