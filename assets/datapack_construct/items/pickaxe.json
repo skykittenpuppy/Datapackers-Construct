@@ -91,6 +91,86 @@
 				},
 				"cases": [
 					{
+						"when": "amethyst",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/binding_amethyst"
+						}
+					},
+					{
+						"when": "copper",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/binding_copper"
+						}
+					},
+					{
+						"when": "diamond",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/binding_diamond"
+						}
+					},
+					{
+						"when": "emerald",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/binding_emerald"
+						}
+					},
+					{
+						"when": "gold",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/binding_gold"
+						}
+					},
+					{
+						"when": "iron",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/binding_iron"
+						}
+					},
+					{
+						"when": "lapis",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/binding_lapis"
+						}
+					},
+					{
+						"when": "netherite",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/binding_netherite"
+						}
+					},
+					{
+						"when": "quartz",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/binding_quartz"
+						}
+					},
+					{
+						"when": "redstone",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/binding_redstone"
+						}
+					}
+				]
+			},
+			{
+				"type": "select",
+				"property": "custom_model_data",
+				"index": 2,
+				"fallback": {
+					"type": "empty"
+				},
+				"cases": [
+					{
 						"when": "oak",
 						"model": {
 							"type": "model",
@@ -172,6 +252,27 @@
 						"model": {
 							"type": "model",
 							"model": "datapack_construct:item/pickaxe/handle_warped"
+						}
+					},
+					{
+						"when": "blaze",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/handle_blaze"
+						}
+					},
+					{
+						"when": "breeze",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/handle_breeze"
+						}
+					},
+					{
+						"when": "prismarine",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe/handle_prismarine"
 						}
 					}
 				]

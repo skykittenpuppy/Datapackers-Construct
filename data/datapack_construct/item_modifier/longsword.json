@@ -4,7 +4,7 @@
 		"target": "item_name",
 		"entity": "this",
 		"name": {"translate": "datapack_construct.item.longsword", "with": [
-			{"storage":"datapack_construct:temp", "nbt": "Info.blade_name", "interpret": true}
+			{"storage":"datapack_construct:temp", "nbt": "Info.name_material", "interpret": true}
 		]}
 	},
 	{
@@ -14,19 +14,19 @@
 		"lore": [
 			{"translate": "datapack_construct.lore", "with": [
 				{"translate": "datapack_construct.component.blade"},
-				{"storage":"datapack_construct:temp", "nbt": "Info.blade_lore", "interpret": true}
+				{"storage":"datapack_construct:temp", "nbt": "Info.blade_material", "interpret": true}
 			], "color": "gray", "italic": false},
 			{"translate": "datapack_construct.lore", "with": [
 				{"translate": "datapack_construct.component.guard"},
-				{"storage":"datapack_construct:temp", "nbt": "Info.guard_lore", "interpret": true}
+				{"storage":"datapack_construct:temp", "nbt": "Info.guard_material", "interpret": true}
 			], "color": "gray", "italic": false},
 			{"translate": "datapack_construct.lore", "with": [
 				{"translate": "datapack_construct.component.handle"},
-				{"storage":"datapack_construct:temp", "nbt": "Info.handle_lore", "interpret": true}
+				{"storage":"datapack_construct:temp", "nbt": "Info.handle_material", "interpret": true}
 			], "color": "gray", "italic": false},
 			{"translate": "datapack_construct.lore", "with": [
 				{"translate": "datapack_construct.component.pommel"},
-				{"storage":"datapack_construct:temp", "nbt": "Info.pommel_lore", "interpret": true}
+				{"storage":"datapack_construct:temp", "nbt": "Info.pommel_material", "interpret": true}
 			], "color": "gray", "italic": false}
 		]
 	}

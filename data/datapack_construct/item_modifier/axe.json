@@ -1,0 +1,29 @@
+[
+	{
+		"function": "set_name",
+		"target": "item_name",
+		"entity": "this",
+		"name": {"translate": "datapack_construct.item.axe", "with": [
+			{"storage":"datapack_construct:temp", "nbt": "Info.name_material", "interpret": true}
+		]}
+	},
+	{
+		"function": "set_lore",
+		"mode": "replace_all",
+		"entity": "this",
+		"lore": [
+			{"translate": "datapack_construct.lore", "with": [
+				{"translate": "datapack_construct.component.head"},
+				{"storage":"datapack_construct:temp", "nbt": "Info.head_material", "interpret": true}
+			], "color": "gray", "italic": false},
+			{"translate": "datapack_construct.lore", "with": [
+				{"translate": "datapack_construct.component.binding"},
+				{"storage":"datapack_construct:temp", "nbt": "Info.binding_material", "interpret": true}
+			], "color": "gray", "italic": false},
+			{"translate": "datapack_construct.lore", "with": [
+				{"translate": "datapack_construct.component.handle"},
+				{"storage":"datapack_construct:temp", "nbt": "Info.handle_material", "interpret": true}
+			], "color": "gray", "italic": false}
+		]
+	}
+]

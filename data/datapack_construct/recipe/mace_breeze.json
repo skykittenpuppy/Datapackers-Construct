@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "maces",
+  "category": "equipment",
+  "pattern": [
+    " # ",
+    " I "
+  ],
+  "key": {
+    "#": "minecraft:heavy_core",
+    "I": "minecraft:breeze_rod"
+  },
+  "result": {
+    "id": "minecraft:mace",
+    "components": {
+      "item_model": "datapack_construct:mace",
+      "custom_model_data": {
+        "strings": [
+          "heavy",
+          "breeze",
+          "iron"
+        ]
+      }
+    },
+    "count": 1
+  }
+}

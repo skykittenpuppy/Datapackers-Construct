@@ -1,0 +1,6 @@
+{
+  "parent": "datapack_construct:item/trident/held/3d_trident",
+  "textures": {
+    "layer0": "datapack_construct:item/trident/3d/binding_gold"
+  }
+}

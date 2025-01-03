@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_mace",
+  "textures": {
+    "layer0": "datapack_construct:item/mace/pommel_gold"
+  }
+}

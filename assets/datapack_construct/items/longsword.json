@@ -253,6 +253,27 @@
 							"type": "model",
 							"model": "datapack_construct:item/longsword/handle_warped"
 						}
+					},
+					{
+						"when": "blaze",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/handle_blaze"
+						}
+					},
+					{
+						"when": "breeze",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/handle_breeze"
+						}
+					},
+					{
+						"when": "prismarine",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/longsword/handle_prismarine"
+						}
 					}
 				]
 			},
