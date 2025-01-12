@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_transmute",
+	"input": "minecraft:wooden_sword",
+	"material": "minecraft:acacia_planks",
+	"result": {
+		"id": "minecraft:wooden_sword",
+		"components": {
+		  "minecraft:recipes": [
+			"datapack_construct:tool/give_oak_handle"
+		  ]
+		}
+	}
+  }
