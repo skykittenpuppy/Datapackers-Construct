@@ -1,0 +1,1 @@
+function datapack_construct:as_all_slots {function: 'datapack_construct:recipe_to_custom_data'}
