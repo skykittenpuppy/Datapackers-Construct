@@ -1,0 +1,282 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "select",
+				"property": "custom_model_data",
+				"index": 0,
+				"fallback": {
+					"type": "empty"
+				},
+				"cases": [
+					{
+						"when": "amethyst",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/head_amethyst"
+						}
+					},
+					{
+						"when": "copper",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/head_copper"
+						}
+					},
+					{
+						"when": "diamond",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/head_diamond"
+						}
+					},
+					{
+						"when": "emerald",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/head_emerald"
+						}
+					},
+					{
+						"when": "gold",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/head_gold"
+						}
+					},
+					{
+						"when": "iron",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/head_iron"
+						}
+					},
+					{
+						"when": "lapis",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/head_lapis"
+						}
+					},
+					{
+						"when": "netherite",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/head_netherite"
+						}
+					},
+					{
+						"when": "quartz",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/head_quartz"
+						}
+					},
+					{
+						"when": "redstone",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/head_redstone"
+						}
+					}
+				]
+			},
+			{
+				"type": "select",
+				"property": "custom_model_data",
+				"index": 1,
+				"fallback": {
+					"type": "empty"
+				},
+				"cases": [
+					{
+						"when": "amethyst",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/binding_amethyst"
+						}
+					},
+					{
+						"when": "copper",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/binding_copper"
+						}
+					},
+					{
+						"when": "diamond",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/binding_diamond"
+						}
+					},
+					{
+						"when": "emerald",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/binding_emerald"
+						}
+					},
+					{
+						"when": "gold",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/binding_gold"
+						}
+					},
+					{
+						"when": "iron",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/binding_iron"
+						}
+					},
+					{
+						"when": "lapis",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/binding_lapis"
+						}
+					},
+					{
+						"when": "netherite",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/binding_netherite"
+						}
+					},
+					{
+						"when": "quartz",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/binding_quartz"
+						}
+					},
+					{
+						"when": "redstone",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/binding_redstone"
+						}
+					}
+				]
+			},
+			{
+				"type": "select",
+				"property": "custom_model_data",
+				"index": 2,
+				"fallback": {
+					"type": "empty"
+				},
+				"cases": [
+					{
+						"when": "oak",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_oak"
+						}
+					},
+					{
+						"when": "spruce",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_spruce"
+						}
+					},
+					{
+						"when": "birch",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_birch"
+						}
+					},
+					{
+						"when": "jungle",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_jungle"
+						}
+					},
+					{
+						"when": "acacia",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_acacia"
+						}
+					},
+					{
+						"when": "dark_oak",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_dark_oak"
+						}
+					},
+					{
+						"when": "mangrove",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_mangrove"
+						}
+					},
+					{
+						"when": "cherry",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_cherry"
+						}
+					},
+					{
+						"when": "pale_oak",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_pale_oak"
+						}
+					},
+					{
+						"when": "bamboo",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_bamboo"
+						}
+					},
+					{
+						"when": "crimson",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_crimson"
+						}
+					},
+					{
+						"when": "warped",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_warped"
+						}
+					},
+					{
+						"when": "blaze",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_blaze"
+						}
+					},
+					{
+						"when": "breeze",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_breeze"
+						}
+					},
+					{
+						"when": "prismarine",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/pickaxe-1/handle_prismarine"
+						}
+					}
+				]
+			}
+		]
+	}
+}

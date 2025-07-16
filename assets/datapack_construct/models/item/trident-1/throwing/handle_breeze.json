@@ -1,0 +1,6 @@
+{
+  "parent": "datapack_construct:item/trident_throwing_3d",
+  "textures": {
+    "layer0": "datapack_construct:item/trident-1/3d/handle_breeze"
+  }
+}

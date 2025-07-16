@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "datapack_construct:item/axe/handle_spruce"
-  }
-}

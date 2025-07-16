@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "datapack_construct:item/weapon-1/blade_amethyst"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "datapack_construct:item/mace_3d",
+  "textures": {
+    "layer0": "datapack_construct:item/mace-1/3d/handle_breeze"
+  }
+}

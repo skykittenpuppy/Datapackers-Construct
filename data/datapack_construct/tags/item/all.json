@@ -1,11 +1,11 @@
 {
 	"values": [
 	  "minecraft:stick",
-	  "minecraft:wooden_sword",
-	  "minecraft:wooden_pickaxe",
-	  "minecraft:wooden_axe",
-	  "minecraft:wooden_shovel",
-	  "minecraft:wooden_hoe",
+	  "minecraft:netherite_sword",
+	  "minecraft:netherite_pickaxe",
+	  "minecraft:netherite_axe",
+	  "minecraft:netherite_shovel",
+	  "minecraft:netherite_hoe",
 	  "minecraft:trident",
 	  "minecraft:mace"
 	]

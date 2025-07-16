@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "datapack_construct:item/trident-1/binding_prismarine"
+  }
+}

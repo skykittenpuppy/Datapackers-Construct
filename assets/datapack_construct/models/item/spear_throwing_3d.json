@@ -1,0 +1,24 @@
+{
+	"parent": "datapack_construct:item/spear_held_3d",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 180],
+			"translation": [8, -6, 9]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 180],
+			"translation": [8, -6, -7]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [-3.5, 7, 6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [12.5, 7, 6]
+		},
+		"head": {
+			"translation": [0, -11, 0]
+		}
+	}
+}

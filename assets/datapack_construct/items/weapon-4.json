@@ -1,0 +1,362 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "select",
+				"property": "custom_model_data",
+				"index": 0,
+				"fallback": {
+					"type": "empty"
+				},
+				"cases": [
+					{
+						"when": "amethyst",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/blade_amethyst"
+						}
+					},
+					{
+						"when": "copper",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/blade_copper"
+						}
+					},
+					{
+						"when": "diamond",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/blade_diamond"
+						}
+					},
+					{
+						"when": "emerald",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/blade_emerald"
+						}
+					},
+					{
+						"when": "gold",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/blade_gold"
+						}
+					},
+					{
+						"when": "iron",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/blade_iron"
+						}
+					},
+					{
+						"when": "lapis",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/blade_lapis"
+						}
+					},
+					{
+						"when": "netherite",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/blade_netherite"
+						}
+					},
+					{
+						"when": "quartz",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/blade_quartz"
+						}
+					},
+					{
+						"when": "redstone",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/blade_redstone"
+						}
+					}
+				]
+			},
+			{
+				"type": "select",
+				"property": "custom_model_data",
+				"index": 1,
+				"fallback": {
+					"type": "empty"
+				},
+				"cases": [
+					{
+						"when": "amethyst",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/guard_amethyst"
+						}
+					},
+					{
+						"when": "copper",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/guard_copper"
+						}
+					},
+					{
+						"when": "diamond",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/guard_diamond"
+						}
+					},
+					{
+						"when": "emerald",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/guard_emerald"
+						}
+					},
+					{
+						"when": "gold",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/guard_gold"
+						}
+					},
+					{
+						"when": "iron",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/guard_iron"
+						}
+					},
+					{
+						"when": "lapis",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/guard_lapis"
+						}
+					},
+					{
+						"when": "netherite",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/guard_netherite"
+						}
+					},
+					{
+						"when": "quartz",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/guard_quartz"
+						}
+					},
+					{
+						"when": "redstone",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/guard_redstone"
+						}
+					}
+				]
+			},
+			{
+				"type": "select",
+				"property": "custom_model_data",
+				"index": 2,
+				"fallback": {
+					"type": "empty"
+				},
+				"cases": [
+					{
+						"when": "oak",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_oak"
+						}
+					},
+					{
+						"when": "spruce",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_spruce"
+						}
+					},
+					{
+						"when": "birch",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_birch"
+						}
+					},
+					{
+						"when": "jungle",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_jungle"
+						}
+					},
+					{
+						"when": "acacia",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_acacia"
+						}
+					},
+					{
+						"when": "dark_oak",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_dark_oak"
+						}
+					},
+					{
+						"when": "mangrove",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_mangrove"
+						}
+					},
+					{
+						"when": "cherry",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_cherry"
+						}
+					},
+					{
+						"when": "pale_oak",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_pale_oak"
+						}
+					},
+					{
+						"when": "bamboo",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_bamboo"
+						}
+					},
+					{
+						"when": "crimson",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_crimson"
+						}
+					},
+					{
+						"when": "warped",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_warped"
+						}
+					},
+					{
+						"when": "blaze",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_blaze"
+						}
+					},
+					{
+						"when": "breeze",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_breeze"
+						}
+					},
+					{
+						"when": "prismarine",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/handle_prismarine"
+						}
+					}
+				]
+			},
+			{
+				"type": "select",
+				"property": "custom_model_data",
+				"index": 3,
+				"fallback": {
+					"type": "empty"
+				},
+				"cases": [
+					{
+						"when": "amethyst",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/pommel_amethyst"
+						}
+					},
+					{
+						"when": "copper",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/pommel_copper"
+						}
+					},
+					{
+						"when": "diamond",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/pommel_diamond"
+						}
+					},
+					{
+						"when": "emerald",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/pommel_emerald"
+						}
+					},
+					{
+						"when": "gold",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/pommel_gold"
+						}
+					},
+					{
+						"when": "iron",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/pommel_iron"
+						}
+					},
+					{
+						"when": "lapis",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/pommel_lapis"
+						}
+					},
+					{
+						"when": "netherite",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/pommel_netherite"
+						}
+					},
+					{
+						"when": "quartz",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/pommel_quartz"
+						}
+					},
+					{
+						"when": "redstone",
+						"model": {
+							"type": "model",
+							"model": "datapack_construct:item/weapon-4/pommel_redstone"
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "datapack_construct:item/mace/held/3d_mace",
-  "textures": {
-    "layer0": "datapack_construct:item/mace/3d/handle_blaze"
-  }
-}

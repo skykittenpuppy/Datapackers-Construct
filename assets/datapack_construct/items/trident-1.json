@@ -1,0 +1,441 @@
+{
+	"model": {
+		"type": "select",
+		"property": "display_context",
+		"fallback": {
+			"type": "minecraft:condition",
+			"property": "minecraft:using_item",
+			"on_false": {
+				"type": "composite",
+				"models": [
+					{
+						"type": "model",
+						"model": "datapack_construct:item/trident-1/held/prongs"
+					},
+					{
+						"type": "select",
+						"property": "custom_model_data",
+						"index": 1,
+						"fallback": {
+							"type": "empty"
+						},
+						"cases": [
+
+							{
+								"when": "amethyst",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_amethyst"
+								}
+							},
+							{
+								"when": "copper",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_copper"
+								}
+							},
+							{
+								"when": "diamond",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_diamond"
+								}
+							},
+							{
+								"when": "emerald",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_emerald"
+								}
+							},
+							{
+								"when": "gold",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_gold"
+								}
+							},
+							{
+								"when": "iron",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_iron"
+								}
+							},
+							{
+								"when": "lapis",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_lapis"
+								}
+							},
+							{
+								"when": "netherite",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_netherite"
+								}
+							},
+							{
+								"when": "quartz",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_quartz"
+								}
+							},
+							{
+								"when": "redstone",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_redstone"
+								}
+							},
+							{
+								"when": "blaze",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_blaze"
+								}
+							},
+							{
+								"when": "breeze",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_breeze"
+								}
+							},
+							{
+								"when": "prismarine",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/binding_prismarine"
+								}
+							}
+						]
+					},
+					{
+						"type": "select",
+						"property": "custom_model_data",
+						"index": 2,
+						"fallback": {
+							"type": "empty"
+						},
+						"cases": [
+							{
+								"when": "blaze",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/handle_blaze"
+								}
+							},
+							{
+								"when": "breeze",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/handle_breeze"
+								}
+							},
+							{
+								"when": "prismarine",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/held/handle_prismarine"
+								}
+							}
+						]
+					}
+				]
+			},
+			"on_true": {
+				"type": "composite",
+				"models": [
+					{
+						"type": "model",
+						"model": "datapack_construct:item/trident-1/throwing/prongs"
+					},
+					{
+						"type": "select",
+						"property": "custom_model_data",
+						"index": 1,
+						"fallback": {
+							"type": "empty"
+						},
+						"cases": [
+
+							{
+								"when": "amethyst",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_amethyst"
+								}
+							},
+							{
+								"when": "copper",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_copper"
+								}
+							},
+							{
+								"when": "diamond",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_diamond"
+								}
+							},
+							{
+								"when": "emerald",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_emerald"
+								}
+							},
+							{
+								"when": "gold",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_gold"
+								}
+							},
+							{
+								"when": "iron",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_iron"
+								}
+							},
+							{
+								"when": "lapis",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_lapis"
+								}
+							},
+							{
+								"when": "netherite",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_netherite"
+								}
+							},
+							{
+								"when": "quartz",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_quartz"
+								}
+							},
+							{
+								"when": "redstone",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_redstone"
+								}
+							},
+							{
+								"when": "blaze",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_blaze"
+								}
+							},
+							{
+								"when": "breeze",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_breeze"
+								}
+							},
+							{
+								"when": "prismarine",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/binding_prismarine"
+								}
+							}
+						]
+					},
+					{
+						"type": "select",
+						"property": "custom_model_data",
+						"index": 2,
+						"fallback": {
+							"type": "empty"
+						},
+						"cases": [
+							{
+								"when": "blaze",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/handle_blaze"
+								}
+							},
+							{
+								"when": "breeze",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/handle_breeze"
+								}
+							},
+							{
+								"when": "prismarine",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-1/throwing/handle_prismarine"
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		"cases": [
+			{
+				"when": ["gui", "ground", "fixed"],
+				"model": {
+					"type": "composite",
+					"models": [
+						{
+							"type": "model",
+							"model": "datapack_construct:item/trident-1/prongs"
+						},
+						{
+							"type": "select",
+							"property": "custom_model_data",
+							"index": 1,
+							"fallback": {
+								"type": "empty"
+							},
+							"cases": [
+
+								{
+									"when": "amethyst",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_amethyst"
+									}
+								},
+								{
+									"when": "copper",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_copper"
+									}
+								},
+								{
+									"when": "diamond",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_diamond"
+									}
+								},
+								{
+									"when": "emerald",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_emerald"
+									}
+								},
+								{
+									"when": "gold",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_gold"
+									}
+								},
+								{
+									"when": "iron",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_iron"
+									}
+								},
+								{
+									"when": "lapis",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_lapis"
+									}
+								},
+								{
+									"when": "netherite",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_netherite"
+									}
+								},
+								{
+									"when": "quartz",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_quartz"
+									}
+								},
+								{
+									"when": "redstone",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_redstone"
+									}
+								},
+								{
+									"when": "blaze",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_blaze"
+									}
+								},
+								{
+									"when": "breeze",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_breeze"
+									}
+								},
+								{
+									"when": "prismarine",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/binding_prismarine"
+									}
+								}
+							]
+						},
+						{
+							"type": "select",
+							"property": "custom_model_data",
+							"index": 2,
+							"fallback": {
+								"type": "empty"
+							},
+							"cases": [
+								{
+									"when": "blaze",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/handle_blaze"
+									}
+								},
+								{
+									"when": "breeze",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/handle_breeze"
+									}
+								},
+								{
+									"when": "prismarine",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-1/handle_prismarine"
+									}
+								}
+							]
+						}
+					]
+				}
+			}
+		]
+	}
+}

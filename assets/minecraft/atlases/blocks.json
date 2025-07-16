@@ -3,19 +3,41 @@
 		{
 			"type": "paletted_permutations",
 			"textures": [
-				"datapack_construct:item/longsword/blade",
-				"datapack_construct:item/longsword/guard",
-				"datapack_construct:item/longsword/pommel",
-				"datapack_construct:item/pickaxe/head",
-				"datapack_construct:item/pickaxe/binding",
-				"datapack_construct:item/axe/head",
-				"datapack_construct:item/axe/binding",
-				"datapack_construct:item/shovel/head",
-				"datapack_construct:item/hoe/head",
-				"datapack_construct:item/trident/binding",
-				"datapack_construct:item/trident/3d/binding",
-				"datapack_construct:item/mace/pommel",
-				"datapack_construct:item/mace/3d/pommel"
+				"datapack_construct:item/weapon-1/blade",
+				"datapack_construct:item/weapon-1/guard",
+				"datapack_construct:item/weapon-1/pommel",
+				"datapack_construct:item/weapon-2/blade",
+				"datapack_construct:item/weapon-2/guard",
+				"datapack_construct:item/weapon-2/pommel",
+				"datapack_construct:item/weapon-3/blade",
+				"datapack_construct:item/weapon-3/guard",
+				"datapack_construct:item/weapon-3/pommel",
+				"datapack_construct:item/weapon-4/blade",
+				"datapack_construct:item/weapon-4/guard",
+				"datapack_construct:item/weapon-4/pommel",
+
+				"datapack_construct:item/pickaxe-1/head",
+				"datapack_construct:item/pickaxe-1/binding",
+
+				"datapack_construct:item/woodaxe-1/head",
+				"datapack_construct:item/woodaxe-1/binding",
+				"datapack_construct:item/woodaxe-2/head",
+				"datapack_construct:item/woodaxe-2/binding",
+				"datapack_construct:item/woodaxe-3/head",
+				"datapack_construct:item/woodaxe-3/binding",
+
+				"datapack_construct:item/shovel-1/head",
+
+				"datapack_construct:item/hoe-1/head",
+				"datapack_construct:item/hoe-2/head",
+
+				"datapack_construct:item/trident-1/binding",
+				"datapack_construct:item/trident-1/3d/binding",
+				"datapack_construct:item/trident-2/binding",
+				"datapack_construct:item/trident-2/3d/binding",
+
+				"datapack_construct:item/mace-1/pommel",
+				"datapack_construct:item/mace-1/3d/pommel"
 			],
 			"palette_key": "datapack_construct:materials/trim_palette",
 			"permutations": {
@@ -35,11 +57,22 @@
 			"type": "paletted_permutations",
 			"textures": [
 				"datapack_construct:item/stick",
-				"datapack_construct:item/longsword/handle",
-				"datapack_construct:item/pickaxe/handle",
-				"datapack_construct:item/axe/handle",
-				"datapack_construct:item/shovel/handle",
-				"datapack_construct:item/hoe/handle"
+
+				"datapack_construct:item/weapon-1/handle",
+				"datapack_construct:item/weapon-2/handle",
+				"datapack_construct:item/weapon-3/handle",
+				"datapack_construct:item/weapon-4/handle",
+
+				"datapack_construct:item/pickaxe-1/handle",
+
+				"datapack_construct:item/woodaxe-1/handle",
+				"datapack_construct:item/woodaxe-2/handle",
+				"datapack_construct:item/woodaxe-3/handle",
+
+				"datapack_construct:item/shovel-1/handle",
+
+				"datapack_construct:item/hoe-1/handle",
+				"datapack_construct:item/hoe-2/handle"
 			],
 			"palette_key": "datapack_construct:materials/trim_palette",
 			"permutations": {
@@ -60,17 +93,33 @@
 		{
 			"type": "paletted_permutations",
 			"textures": [
-				"datapack_construct:item/longsword/handle",
-				"datapack_construct:item/pickaxe/handle",
-				"datapack_construct:item/axe/handle",
-				"datapack_construct:item/shovel/handle",
-				"datapack_construct:item/hoe/handle",
-				"datapack_construct:item/trident/binding",
-				"datapack_construct:item/trident/3d/binding",
-				"datapack_construct:item/trident/handle",
-				"datapack_construct:item/trident/3d/handle",
-				"datapack_construct:item/mace/handle",
-				"datapack_construct:item/mace/3d/handle"
+				"datapack_construct:item/sword-1/handle",
+				"datapack_construct:item/sword-2/handle",
+				"datapack_construct:item/sword-3/handle",
+				"datapack_construct:item/sword-4/handle",
+
+				"datapack_construct:item/pickaxe-1/handle",
+
+				"datapack_construct:item/woodaxe-1/handle",
+				"datapack_construct:item/woodaxe-2/handle",
+				"datapack_construct:item/woodaxe-3/handle",
+
+				"datapack_construct:item/shovel-1/handle",
+
+				"datapack_construct:item/hoe-1/handle",
+				"datapack_construct:item/hoe-2/handle",
+				
+				"datapack_construct:item/trident-1/binding",
+				"datapack_construct:item/trident-1/3d/binding",
+				"datapack_construct:item/trident-1/handle",
+				"datapack_construct:item/trident-1/3d/handle",
+				"datapack_construct:item/trident-2/binding",
+				"datapack_construct:item/trident-2/3d/binding",
+				"datapack_construct:item/trident-2/handle",
+				"datapack_construct:item/trident-2/3d/handle",
+
+				"datapack_construct:item/mace-1/handle",
+				"datapack_construct:item/mace-1/3d/handle"
 			],
 			"palette_key": "datapack_construct:materials/trim_palette",
 			"permutations": {
