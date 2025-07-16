@@ -1,4 +1,4 @@
-2{
+{
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "datapack_construct:item/weapon-2/pommel_lapis"

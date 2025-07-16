@@ -14,70 +14,70 @@
 						"when": "amethyst",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/blade_amethyst"
+							"model": "datapack_construct:item/weapon-4/head_amethyst"
 						}
 					},
 					{
 						"when": "copper",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/blade_copper"
+							"model": "datapack_construct:item/weapon-4/head_copper"
 						}
 					},
 					{
 						"when": "diamond",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/blade_diamond"
+							"model": "datapack_construct:item/weapon-4/head_diamond"
 						}
 					},
 					{
 						"when": "emerald",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/blade_emerald"
+							"model": "datapack_construct:item/weapon-4/head_emerald"
 						}
 					},
 					{
 						"when": "gold",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/blade_gold"
+							"model": "datapack_construct:item/weapon-4/head_gold"
 						}
 					},
 					{
 						"when": "iron",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/blade_iron"
+							"model": "datapack_construct:item/weapon-4/head_iron"
 						}
 					},
 					{
 						"when": "lapis",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/blade_lapis"
+							"model": "datapack_construct:item/weapon-4/head_lapis"
 						}
 					},
 					{
 						"when": "netherite",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/blade_netherite"
+							"model": "datapack_construct:item/weapon-4/head_netherite"
 						}
 					},
 					{
 						"when": "quartz",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/blade_quartz"
+							"model": "datapack_construct:item/weapon-4/head_quartz"
 						}
 					},
 					{
 						"when": "redstone",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/blade_redstone"
+							"model": "datapack_construct:item/weapon-4/head_redstone"
 						}
 					}
 				]
@@ -94,70 +94,70 @@
 						"when": "amethyst",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/guard_amethyst"
+							"model": "datapack_construct:item/weapon-4/point_amethyst"
 						}
 					},
 					{
 						"when": "copper",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/guard_copper"
+							"model": "datapack_construct:item/weapon-4/point_copper"
 						}
 					},
 					{
 						"when": "diamond",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/guard_diamond"
+							"model": "datapack_construct:item/weapon-4/point_diamond"
 						}
 					},
 					{
 						"when": "emerald",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/guard_emerald"
+							"model": "datapack_construct:item/weapon-4/point_emerald"
 						}
 					},
 					{
 						"when": "gold",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/guard_gold"
+							"model": "datapack_construct:item/weapon-4/point_gold"
 						}
 					},
 					{
 						"when": "iron",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/guard_iron"
+							"model": "datapack_construct:item/weapon-4/point_iron"
 						}
 					},
 					{
 						"when": "lapis",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/guard_lapis"
+							"model": "datapack_construct:item/weapon-4/point_lapis"
 						}
 					},
 					{
 						"when": "netherite",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/guard_netherite"
+							"model": "datapack_construct:item/weapon-4/point_netherite"
 						}
 					},
 					{
 						"when": "quartz",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/guard_quartz"
+							"model": "datapack_construct:item/weapon-4/point_quartz"
 						}
 					},
 					{
 						"when": "redstone",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/weapon-4/guard_redstone"
+							"model": "datapack_construct:item/weapon-4/point_redstone"
 						}
 					}
 				]
@@ -273,86 +273,6 @@
 						"model": {
 							"type": "model",
 							"model": "datapack_construct:item/weapon-4/handle_prismarine"
-						}
-					}
-				]
-			},
-			{
-				"type": "select",
-				"property": "custom_model_data",
-				"index": 3,
-				"fallback": {
-					"type": "empty"
-				},
-				"cases": [
-					{
-						"when": "amethyst",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/weapon-4/pommel_amethyst"
-						}
-					},
-					{
-						"when": "copper",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/weapon-4/pommel_copper"
-						}
-					},
-					{
-						"when": "diamond",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/weapon-4/pommel_diamond"
-						}
-					},
-					{
-						"when": "emerald",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/weapon-4/pommel_emerald"
-						}
-					},
-					{
-						"when": "gold",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/weapon-4/pommel_gold"
-						}
-					},
-					{
-						"when": "iron",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/weapon-4/pommel_iron"
-						}
-					},
-					{
-						"when": "lapis",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/weapon-4/pommel_lapis"
-						}
-					},
-					{
-						"when": "netherite",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/weapon-4/pommel_netherite"
-						}
-					},
-					{
-						"when": "quartz",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/weapon-4/pommel_quartz"
-						}
-					},
-					{
-						"when": "redstone",
-						"model": {
-							"type": "model",
-							"model": "datapack_construct:item/weapon-4/pommel_redstone"
 						}
 					}
 				]

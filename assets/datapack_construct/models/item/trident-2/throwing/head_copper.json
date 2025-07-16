@@ -1,0 +1,6 @@
+{
+  "parent": "datapack_construct:item/spear_throwing_3d",
+  "textures": {
+    "layer0": "datapack_construct:item/trident-2/3d/head_copper"
+  }
+}

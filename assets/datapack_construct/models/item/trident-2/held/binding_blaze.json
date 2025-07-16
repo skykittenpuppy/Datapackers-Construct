@@ -1,6 +1,0 @@
-{
-  "parent": "datapack_construct:item/spear_held_3d",
-  "textures": {
-    "layer0": "datapack_construct:item/trident-2/3d/binding_blaze"
-  }
-}

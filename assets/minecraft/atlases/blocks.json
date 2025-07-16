@@ -12,9 +12,8 @@
 				"datapack_construct:item/weapon-3/blade",
 				"datapack_construct:item/weapon-3/guard",
 				"datapack_construct:item/weapon-3/pommel",
-				"datapack_construct:item/weapon-4/blade",
-				"datapack_construct:item/weapon-4/guard",
-				"datapack_construct:item/weapon-4/pommel",
+				"datapack_construct:item/weapon-4/head",
+				"datapack_construct:item/weapon-4/point",
 
 				"datapack_construct:item/pickaxe-1/head",
 				"datapack_construct:item/pickaxe-1/binding",
@@ -29,10 +28,12 @@
 				"datapack_construct:item/shovel-1/head",
 
 				"datapack_construct:item/hoe-1/head",
-				"datapack_construct:item/hoe-2/head",
+				"datapack_construct:item/hoe-2/blade",
 
 				"datapack_construct:item/trident-1/binding",
 				"datapack_construct:item/trident-1/3d/binding",
+				"datapack_construct:item/trident-2/head",
+				"datapack_construct:item/trident-2/3d/head",
 				"datapack_construct:item/trident-2/binding",
 				"datapack_construct:item/trident-2/3d/binding",
 
@@ -72,7 +73,10 @@
 				"datapack_construct:item/shovel-1/handle",
 
 				"datapack_construct:item/hoe-1/handle",
-				"datapack_construct:item/hoe-2/handle"
+				"datapack_construct:item/hoe-2/handle",
+
+				"datapack_construct:item/trident-2/handle",
+				"datapack_construct:item/trident-2/3d/handle"
 			],
 			"palette_key": "datapack_construct:materials/trim_palette",
 			"permutations": {
@@ -93,10 +97,10 @@
 		{
 			"type": "paletted_permutations",
 			"textures": [
-				"datapack_construct:item/sword-1/handle",
-				"datapack_construct:item/sword-2/handle",
-				"datapack_construct:item/sword-3/handle",
-				"datapack_construct:item/sword-4/handle",
+				"datapack_construct:item/weapon-1/handle",
+				"datapack_construct:item/weapon-2/handle",
+				"datapack_construct:item/weapon-3/handle",
+				"datapack_construct:item/weapon-4/handle",
 
 				"datapack_construct:item/pickaxe-1/handle",
 
@@ -113,8 +117,6 @@
 				"datapack_construct:item/trident-1/3d/binding",
 				"datapack_construct:item/trident-1/handle",
 				"datapack_construct:item/trident-1/3d/handle",
-				"datapack_construct:item/trident-2/binding",
-				"datapack_construct:item/trident-2/3d/binding",
 				"datapack_construct:item/trident-2/handle",
 				"datapack_construct:item/trident-2/3d/handle",
 

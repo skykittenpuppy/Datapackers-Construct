@@ -14,70 +14,70 @@
 						"when": "amethyst",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/hoe-2/head_amethyst"
+							"model": "datapack_construct:item/hoe-2/blade_amethyst"
 						}
 					},
 					{
 						"when": "copper",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/hoe-2/head_copper"
+							"model": "datapack_construct:item/hoe-2/blade_copper"
 						}
 					},
 					{
 						"when": "diamond",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/hoe-2/head_diamond"
+							"model": "datapack_construct:item/hoe-2/blade_diamond"
 						}
 					},
 					{
 						"when": "emerald",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/hoe-2/head_emerald"
+							"model": "datapack_construct:item/hoe-2/blade_emerald"
 						}
 					},
 					{
 						"when": "gold",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/hoe-2/head_gold"
+							"model": "datapack_construct:item/hoe-2/blade_gold"
 						}
 					},
 					{
 						"when": "iron",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/hoe-2/head_iron"
+							"model": "datapack_construct:item/hoe-2/blade_iron"
 						}
 					},
 					{
 						"when": "lapis",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/hoe-2/head_lapis"
+							"model": "datapack_construct:item/hoe-2/blade_lapis"
 						}
 					},
 					{
 						"when": "netherite",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/hoe-2/head_netherite"
+							"model": "datapack_construct:item/hoe-2/blade_netherite"
 						}
 					},
 					{
 						"when": "quartz",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/hoe-2/head_quartz"
+							"model": "datapack_construct:item/hoe-2/blade_quartz"
 						}
 					},
 					{
 						"when": "redstone",
 						"model": {
 							"type": "model",
-							"model": "datapack_construct:item/hoe-2/head_redstone"
+							"model": "datapack_construct:item/hoe-2/blade_redstone"
 						}
 					}
 				]

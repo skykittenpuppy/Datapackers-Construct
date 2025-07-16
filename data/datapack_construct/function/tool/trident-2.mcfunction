@@ -1,6 +1,6 @@
 data modify storage datapack_construct:temp Info set value {}
-$data modify storage datapack_construct:temp Info.name_material set value {"translate": "datapack_construct.material.name.$(handle)"}
-$data modify storage datapack_construct:temp Info.prongs_material set from storage datapack_construct:const Materials.$(prongs)
+$data modify storage datapack_construct:temp Info.name_material set value {"translate": "datapack_construct.material.name.$(head)"}
+$data modify storage datapack_construct:temp Info.prongs_material set from storage datapack_construct:const Materials.$(head)
 $data modify storage datapack_construct:temp Info.binding_material set from storage datapack_construct:const Materials.$(binding)
 $data modify storage datapack_construct:temp Info.handle_material set from storage datapack_construct:const Materials.$(handle)
 
@@ -12,15 +12,15 @@ $item modify $(where) [ \
 		"components": { \
 			"item_name": { \
 				"translate": "datapack_construct.item.trident-2", \
-				"with": [{"translate": "datapack_construct.material.name.$(handle)"}] \
+				"with": [{"translate": "datapack_construct.material.name.$(head)"}] \
 			}, \
 			"custom_data": { \
 				"tool_type": "trident-2", \
-				"prongs": $(prongs), \
+				"head": $(head), \
 				"binding": $(binding), \
 				"handle": $(handle) \
 			}, \
-			"custom_model_data": {strings: ["$(prongs)", "$(binding)", "$(handle)"]}, \
+			"custom_model_data": {strings: ["$(head)", "$(binding)", "$(handle)"]}, \
 			"item_model": "datapack_construct:trident-2", \
 			"max_stack_size": 1, \
 			"!food": {} \
@@ -32,8 +32,8 @@ $item modify $(where) [ \
 		"entity": "this", \
 		"lore": [ \
 			{"translate": "datapack_construct.lore", "with": [ \
-				{"translate": "datapack_construct.component.prongs"}, \
-				{"storage":"datapack_construct:const", "nbt": "Materials.$(prongs)", "interpret": true} \
+				{"translate": "datapack_construct.component.head"}, \
+				{"storage":"datapack_construct:const", "nbt": "Materials.$(head)", "interpret": true} \
 			], "color": "gray", "italic": false}, \
 			{"translate": "datapack_construct.lore", "with": [ \
 				{"translate": "datapack_construct.component.binding"}, \

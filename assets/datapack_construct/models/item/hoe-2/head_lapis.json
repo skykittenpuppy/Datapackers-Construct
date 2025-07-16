@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "datapack_construct:item/hoe-2/head_lapis"
-  }
-}

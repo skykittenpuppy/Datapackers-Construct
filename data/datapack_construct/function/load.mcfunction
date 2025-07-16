@@ -88,8 +88,8 @@ execute as @r run function datapack_construct:tool/weapon-2 {where: 'block -146 
 execute as @r run function datapack_construct:tool/weapon-2 {where: 'block -146 71 -265 container.3',	blade: emerald,		guard: amethyst,		handle: bamboo,		pommel: redstone}
 execute as @r run function datapack_construct:tool/weapon-3 {where: 'block -146 71 -265 container.4',	blade: diamond,		guard: diamond,			handle: spruce,		pommel: diamond}
 execute as @r run function datapack_construct:tool/weapon-3 {where: 'block -146 71 -265 container.5',	blade: emerald,		guard: amethyst,		handle: bamboo,		pommel: redstone}
-execute as @r run function datapack_construct:tool/weapon-4 {where: 'block -146 71 -265 container.6',	blade: diamond,		guard: diamond,			handle: spruce,		pommel: diamond}
-execute as @r run function datapack_construct:tool/weapon-4 {where: 'block -146 71 -265 container.7',	blade: emerald,		guard: amethyst,		handle: bamboo,		pommel: redstone}
+execute as @r run function datapack_construct:tool/weapon-4 {where: 'block -146 71 -265 container.6',	head: diamond,		point: diamond,			handle: spruce}
+execute as @r run function datapack_construct:tool/weapon-4 {where: 'block -146 71 -265 container.7',	head: emerald,		point: amethyst,		handle: bamboo}
 
 execute as @r run function datapack_construct:tool/woodaxe-1 {where: 'block -146 71 -265 container.9',	head: diamond,		binding: diamond,		handle: spruce}
 execute as @r run function datapack_construct:tool/woodaxe-1 {where: 'block -146 71 -265 container.10',	head: emerald,		binding: amethyst,		handle: bamboo}
@@ -100,10 +100,10 @@ execute as @r run function datapack_construct:tool/woodaxe-3 {where: 'block -146
 
 execute as @r run function datapack_construct:tool/hoe-1 {where: 'block -146 71 -265 container.18',		head: diamond,		handle: spruce}
 execute as @r run function datapack_construct:tool/hoe-1 {where: 'block -146 71 -265 container.19',		head: emerald,		handle: bamboo}
-execute as @r run function datapack_construct:tool/hoe-2 {where: 'block -146 71 -265 container.20',		head: diamond,		handle: spruce}
-execute as @r run function datapack_construct:tool/hoe-2 {where: 'block -146 71 -265 container.21',		head: emerald,		handle: bamboo}
+execute as @r run function datapack_construct:tool/hoe-2 {where: 'block -146 71 -265 container.20',		blade: diamond,		handle: spruce}
+execute as @r run function datapack_construct:tool/hoe-2 {where: 'block -146 71 -265 container.21',		blade: emerald,		handle: bamboo}
 
 execute as @r run function datapack_construct:tool/trident-1 {where: 'block -146 71 -264 container.0',	prongs: bone, 		binding: prismarine,	handle: prismarine}
 execute as @r run function datapack_construct:tool/trident-1 {where: 'block -146 71 -264 container.1',	prongs: bone,		binding: redstone,		handle: blaze}
-execute as @r run function datapack_construct:tool/trident-2 {where: 'block -146 71 -264 container.2',	prongs: bone, 		binding: prismarine,	handle: prismarine}
-execute as @r run function datapack_construct:tool/trident-2 {where: 'block -146 71 -264 container.3',	prongs: bone,		binding: redstone,		handle: blaze}
+execute as @r run function datapack_construct:tool/trident-2 {where: 'block -146 71 -264 container.2',	head: diamond,		binding: diamond,		handle: spruce}
+execute as @r run function datapack_construct:tool/trident-2 {where: 'block -146 71 -264 container.3',	head: emerald,		binding: amethyst,		handle: bamboo}

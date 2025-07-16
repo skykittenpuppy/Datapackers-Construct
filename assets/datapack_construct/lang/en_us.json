@@ -6,6 +6,7 @@
 	"datapack_construct.component.binding":			"Binding",
 	"datapack_construct.component.handle":			"Handle",
 	"datapack_construct.component.pommel":			"Pommel",
+	"datapack_construct.component.point":			"Point",
 
 	"datapack_construct.item.weapon-1":				"%1$s Shortsword",
 	"datapack_construct.item.weapon-2":				"%1$s Swiftsword",

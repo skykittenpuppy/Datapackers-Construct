@@ -9,8 +9,84 @@
 				"type": "composite",
 				"models": [
 					{
-						"type": "model",
-						"model": "datapack_construct:item/trident-2/held/prongs"
+						"type": "select",
+						"property": "custom_model_data",
+						"index": 0,
+						"fallback": {
+							"type": "empty"
+						},
+						"cases": [
+							{
+								"when": "amethyst",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/head_amethyst"
+								}
+							},
+							{
+								"when": "copper",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/head_copper"
+								}
+							},
+							{
+								"when": "diamond",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/head_diamond"
+								}
+							},
+							{
+								"when": "emerald",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/head_emerald"
+								}
+							},
+							{
+								"when": "gold",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/head_gold"
+								}
+							},
+							{
+								"when": "iron",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/head_iron"
+								}
+							},
+							{
+								"when": "lapis",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/head_lapis"
+								}
+							},
+							{
+								"when": "netherite",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/head_netherite"
+								}
+							},
+							{
+								"when": "quartz",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/head_quartz"
+								}
+							},
+							{
+								"when": "redstone",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/head_redstone"
+								}
+							}
+						]
 					},
 					{
 						"type": "select",
@@ -90,27 +166,6 @@
 									"type": "model",
 									"model": "datapack_construct:item/trident-2/held/binding_redstone"
 								}
-							},
-							{
-								"when": "blaze",
-								"model": {
-									"type": "model",
-									"model": "datapack_construct:item/trident-2/held/binding_blaze"
-								}
-							},
-							{
-								"when": "breeze",
-								"model": {
-									"type": "model",
-									"model": "datapack_construct:item/trident-2/held/binding_breeze"
-								}
-							},
-							{
-								"when": "prismarine",
-								"model": {
-									"type": "model",
-									"model": "datapack_construct:item/trident-2/held/binding_prismarine"
-								}
 							}
 						]
 					},
@@ -122,6 +177,90 @@
 							"type": "empty"
 						},
 						"cases": [
+							{
+								"when": "oak",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_oak"
+								}
+							},
+							{
+								"when": "spruce",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_spruce"
+								}
+							},
+							{
+								"when": "birch",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_birch"
+								}
+							},
+							{
+								"when": "jungle",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_jungle"
+								}
+							},
+							{
+								"when": "acacia",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_acacia"
+								}
+							},
+							{
+								"when": "dark_oak",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_dark_oak"
+								}
+							},
+							{
+								"when": "mangrove",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_mangrove"
+								}
+							},
+							{
+								"when": "cherry",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_cherry"
+								}
+							},
+							{
+								"when": "pale_oak",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_pale_oak"
+								}
+							},
+							{
+								"when": "bamboo",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_bamboo"
+								}
+							},
+							{
+								"when": "crimson",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_crimson"
+								}
+							},
+							{
+								"when": "warped",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/held/handle_warped"
+								}
+							},
 							{
 								"when": "blaze",
 								"model": {
@@ -151,8 +290,84 @@
 				"type": "composite",
 				"models": [
 					{
-						"type": "model",
-						"model": "datapack_construct:item/trident-2/throwing/prongs"
+						"type": "select",
+						"property": "custom_model_data",
+						"index": 0,
+						"fallback": {
+							"type": "empty"
+						},
+						"cases": [
+							{
+								"when": "amethyst",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/head_amethyst"
+								}
+							},
+							{
+								"when": "copper",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/head_copper"
+								}
+							},
+							{
+								"when": "diamond",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/head_diamond"
+								}
+							},
+							{
+								"when": "emerald",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/head_emerald"
+								}
+							},
+							{
+								"when": "gold",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/head_gold"
+								}
+							},
+							{
+								"when": "iron",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/head_iron"
+								}
+							},
+							{
+								"when": "lapis",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/head_lapis"
+								}
+							},
+							{
+								"when": "netherite",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/head_netherite"
+								}
+							},
+							{
+								"when": "quartz",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/head_quartz"
+								}
+							},
+							{
+								"when": "redstone",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/head_redstone"
+								}
+							}
+						]
 					},
 					{
 						"type": "select",
@@ -265,6 +480,90 @@
 						},
 						"cases": [
 							{
+								"when": "oak",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_oak"
+								}
+							},
+							{
+								"when": "spruce",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_spruce"
+								}
+							},
+							{
+								"when": "birch",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_birch"
+								}
+							},
+							{
+								"when": "jungle",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_jungle"
+								}
+							},
+							{
+								"when": "acacia",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_acacia"
+								}
+							},
+							{
+								"when": "dark_oak",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_dark_oak"
+								}
+							},
+							{
+								"when": "mangrove",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_mangrove"
+								}
+							},
+							{
+								"when": "cherry",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_cherry"
+								}
+							},
+							{
+								"when": "pale_oak",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_pale_oak"
+								}
+							},
+							{
+								"when": "bamboo",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_bamboo"
+								}
+							},
+							{
+								"when": "crimson",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_crimson"
+								}
+							},
+							{
+								"when": "warped",
+								"model": {
+									"type": "model",
+									"model": "datapack_construct:item/trident-2/throwing/handle_warped"
+								}
+							},
+							{
 								"when": "blaze",
 								"model": {
 									"type": "model",
@@ -297,8 +596,84 @@
 					"type": "composite",
 					"models": [
 						{
-							"type": "model",
-							"model": "datapack_construct:item/trident-2/prongs"
+							"type": "select",
+							"property": "custom_model_data",
+							"index": 0,
+							"fallback": {
+								"type": "empty"
+							},
+							"cases": [
+								{
+									"when": "amethyst",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/head_amethyst"
+									}
+								},
+								{
+									"when": "copper",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/head_copper"
+									}
+								},
+								{
+									"when": "diamond",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/head_diamond"
+									}
+								},
+								{
+									"when": "emerald",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/head_emerald"
+									}
+								},
+								{
+									"when": "gold",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/head_gold"
+									}
+								},
+								{
+									"when": "iron",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/head_iron"
+									}
+								},
+								{
+									"when": "lapis",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/head_lapis"
+									}
+								},
+								{
+									"when": "netherite",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/head_netherite"
+									}
+								},
+								{
+									"when": "quartz",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/head_quartz"
+									}
+								},
+								{
+									"when": "redstone",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/head_redstone"
+									}
+								}
+							]
 						},
 						{
 							"type": "select",
@@ -410,6 +785,90 @@
 								"type": "empty"
 							},
 							"cases": [
+								{
+									"when": "oak",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_oak"
+									}
+								},
+								{
+									"when": "spruce",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_spruce"
+									}
+								},
+								{
+									"when": "birch",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_birch"
+									}
+								},
+								{
+									"when": "jungle",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_jungle"
+									}
+								},
+								{
+									"when": "acacia",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_acacia"
+									}
+								},
+								{
+									"when": "dark_oak",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_dark_oak"
+									}
+								},
+								{
+									"when": "mangrove",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_mangrove"
+									}
+								},
+								{
+									"when": "cherry",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_cherry"
+									}
+								},
+								{
+									"when": "pale_oak",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_pale_oak"
+									}
+								},
+								{
+									"when": "bamboo",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_bamboo"
+									}
+								},
+								{
+									"when": "crimson",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_crimson"
+									}
+								},
+								{
+									"when": "warped",
+									"model": {
+										"type": "model",
+										"model": "datapack_construct:item/trident-2/handle_warped"
+									}
+								},
 								{
 									"when": "blaze",
 									"model": {
