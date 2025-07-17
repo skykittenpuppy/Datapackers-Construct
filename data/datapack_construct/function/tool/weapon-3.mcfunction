@@ -1,10 +1,3 @@
-data modify storage datapack_construct:temp Info set value {}
-$data modify storage datapack_construct:temp Info.name_material set value {"translate": "datapack_construct.material.name.$(blade)"}
-$data modify storage datapack_construct:temp Info.blade_material set from storage datapack_construct:const Materials.$(blade)
-$data modify storage datapack_construct:temp Info.guard_material set from storage datapack_construct:const Materials.$(guard)
-$data modify storage datapack_construct:temp Info.handle_material set from storage datapack_construct:const Materials.$(handle)
-$data modify storage datapack_construct:temp Info.pommel_material set from storage datapack_construct:const Materials.$(pommel)
-
 $item replace $(where) with netherite_sword
 
 $item modify $(where) [ \
@@ -25,7 +18,7 @@ $item modify $(where) [ \
 			"custom_model_data": {strings: ["$(blade)", "$(guard)", "$(handle)", "$(pommel)"]}, \
 			"item_model": "datapack_construct:weapon-3", \
 			"max_stack_size": 1, \
-			"!food": {} \
+			"rarity": "common" \
 		} \
 	}, \
 	{ \

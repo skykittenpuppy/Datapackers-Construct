@@ -1,8 +1,3 @@
-data modify storage datapack_construct:temp Info set value {}
-$data modify storage datapack_construct:temp Info.name_material set value {"translate": "datapack_construct.material.name.$(blade)"}
-$data modify storage datapack_construct:temp Info.blade_material set from storage datapack_construct:const Materials.$(blade)
-$data modify storage datapack_construct:temp Info.handle_material set from storage datapack_construct:const Materials.$(handle)
-
 $item replace $(where) with netherite_hoe
 
 $item modify $(where) [ \
@@ -21,7 +16,7 @@ $item modify $(where) [ \
 			"custom_model_data": {strings: ["$(blade)", "$(handle)"]}, \
 			"item_model": "datapack_construct:hoe-2", \
 			"max_stack_size": 1, \
-			"!food": {} \
+			"rarity": "common" \
 		} \
 	}, \
 	{ \
