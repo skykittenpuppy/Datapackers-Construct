@@ -1,12 +1,12 @@
 {
 	"values": [
-	  "minecraft:stick",
-	  "minecraft:netherite_sword",
-	  "minecraft:netherite_pickaxe",
-	  "minecraft:netherite_axe",
-	  "minecraft:netherite_shovel",
-	  "minecraft:netherite_hoe",
-	  "minecraft:trident",
-	  "minecraft:mace"
+		"minecraft:stick",
+		"minecraft:netherite_sword",
+		"minecraft:netherite_pickaxe",
+		"minecraft:netherite_axe",
+		"minecraft:netherite_shovel",
+		"minecraft:netherite_hoe",
+		"minecraft:trident",
+		"minecraft:mace"
 	]
-  }
+}
