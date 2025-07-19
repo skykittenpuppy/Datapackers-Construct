@@ -1,16 +1,16 @@
 {
 	"datapack_construct.component.head":			"Head",
 	"datapack_construct.component.blade":			"Blade",
+	"datapack_construct.component.point":			"Point",
 	"datapack_construct.component.prongs":			"Prongs",
 	"datapack_construct.component.guard":			"Guard",
 	"datapack_construct.component.binding":			"Binding",
 	"datapack_construct.component.handle":			"Handle",
 	"datapack_construct.component.pommel":			"Pommel",
-	"datapack_construct.component.point":			"Point",
 
-	"datapack_construct.item.weapon-1":				"%1$s Shortsword",
-	"datapack_construct.item.weapon-2":				"%1$s Swiftsword",
-	"datapack_construct.item.weapon-3":				"%1$s Widesword",
+	"datapack_construct.item.weapon-1":				"%2$s Shortsword",
+	"datapack_construct.item.weapon-2":				"%2$s Swiftsword",
+	"datapack_construct.item.weapon-3":				"%2$s Widesword",
 	"datapack_construct.item.weapon-4":				"%1$s Halberd",
 	"datapack_construct.item.pickaxe-1":			"%1$s Pickaxe",
 	"datapack_construct.item.woodaxe-1":			"%1$s Woodaxe",
@@ -18,12 +18,12 @@
 	"datapack_construct.item.woodaxe-3":			"%1$s Paxel",
 	"datapack_construct.item.shovel-1":				"%1$s Shovel",
 	"datapack_construct.item.hoe-1":				"%1$s Hoe",
-	"datapack_construct.item.hoe-2":				"%1$s Scythe",
-	"datapack_construct.item.trident-1":			"%1$s Trident",
+	"datapack_construct.item.hoe-2":				"%2$s Scythe",
+	"datapack_construct.item.trident-1":			"%7$s Trident",
 	"datapack_construct.item.trident-2":			"%1$s Throwing Spear",
-	"datapack_construct.item.mace-1":				"%1$s Mace",
+	"datapack_construct.item.mace-1":				"%7$s Mace",
 
-	"datapack_construct.item.stick":				"%1$s Stick",
+	"datapack_construct.item.stick":				"%9$s Stick",
 
 	"datapack_construct.material.name.none":		"NONE",
 

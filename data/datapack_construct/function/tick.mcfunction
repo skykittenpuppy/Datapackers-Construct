@@ -1,1 +1,1 @@
-function datapack_construct:as_all_slots {function: 'datapack_construct:recipe_to_custom_data'}
+execute as @a run function datapack_construct:recipe_to_custom_data

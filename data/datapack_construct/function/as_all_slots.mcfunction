@@ -1,50 +1,50 @@
-$function $(function) {slot: 'weapon.mainhand'}
-$function $(function) {slot: 'weapon.offhand'}
+$function $(function) {slot: 'entity @s weapon.mainhand'}
+$function $(function) {slot: 'entity @s weapon.offhand'}
 
-$function $(function) {slot: 'armor.head'}
-$function $(function) {slot: 'armor.chest'}
-$function $(function) {slot: 'armor.legs'}
-$function $(function) {slot: 'armor.feet'}
+$function $(function) {slot: 'entity @s armor.head'}
+$function $(function) {slot: 'entity @s armor.chest'}
+$function $(function) {slot: 'entity @s armor.legs'}
+$function $(function) {slot: 'entity @s armor.feet'}
 
-$function $(function) {slot: 'player.cursor'}
-$function $(function) {slot: 'player.crafting.0'}
-$function $(function) {slot: 'player.crafting.1'}
-$function $(function) {slot: 'player.crafting.2'}
-$function $(function) {slot: 'player.crafting.3'}
+$function $(function) {slot: 'entity @s player.cursor'}
+$function $(function) {slot: 'entity @s player.crafting.0'}
+$function $(function) {slot: 'entity @s player.crafting.1'}
+$function $(function) {slot: 'entity @s player.crafting.2'}
+$function $(function) {slot: 'entity @s player.crafting.3'}
 
-$function $(function) {slot: 'container.0'}
-$function $(function) {slot: 'container.1'}
-$function $(function) {slot: 'container.2'}
-$function $(function) {slot: 'container.3'}
-$function $(function) {slot: 'container.4'}
-$function $(function) {slot: 'container.5'}
-$function $(function) {slot: 'container.6'}
-$function $(function) {slot: 'container.7'}
-$function $(function) {slot: 'container.8'}
-$function $(function) {slot: 'container.9'}
-$function $(function) {slot: 'container.10'}
-$function $(function) {slot: 'container.11'}
-$function $(function) {slot: 'container.12'}
-$function $(function) {slot: 'container.13'}
-$function $(function) {slot: 'container.14'}
-$function $(function) {slot: 'container.15'}
-$function $(function) {slot: 'container.16'}
-$function $(function) {slot: 'container.17'}
-$function $(function) {slot: 'container.18'}
-$function $(function) {slot: 'container.19'}
-$function $(function) {slot: 'container.20'}
-$function $(function) {slot: 'container.21'}
-$function $(function) {slot: 'container.22'}
-$function $(function) {slot: 'container.23'}
-$function $(function) {slot: 'container.24'}
-$function $(function) {slot: 'container.25'}
-$function $(function) {slot: 'container.26'}
-$function $(function) {slot: 'container.27'}
-$function $(function) {slot: 'container.28'}
-$function $(function) {slot: 'container.29'}
-$function $(function) {slot: 'container.30'}
-$function $(function) {slot: 'container.31'}
-$function $(function) {slot: 'container.32'}
-$function $(function) {slot: 'container.33'}
-$function $(function) {slot: 'container.34'}
-$function $(function) {slot: 'container.35'}
+$function $(function) {slot: 'entity @s container.0'}
+$function $(function) {slot: 'entity @s container.1'}
+$function $(function) {slot: 'entity @s container.2'}
+$function $(function) {slot: 'entity @s container.3'}
+$function $(function) {slot: 'entity @s container.4'}
+$function $(function) {slot: 'entity @s container.5'}
+$function $(function) {slot: 'entity @s container.6'}
+$function $(function) {slot: 'entity @s container.7'}
+$function $(function) {slot: 'entity @s container.8'}
+$function $(function) {slot: 'entity @s container.9'}
+$function $(function) {slot: 'entity @s container.10'}
+$function $(function) {slot: 'entity @s container.11'}
+$function $(function) {slot: 'entity @s container.12'}
+$function $(function) {slot: 'entity @s container.13'}
+$function $(function) {slot: 'entity @s container.14'}
+$function $(function) {slot: 'entity @s container.15'}
+$function $(function) {slot: 'entity @s container.16'}
+$function $(function) {slot: 'entity @s container.17'}
+$function $(function) {slot: 'entity @s container.18'}
+$function $(function) {slot: 'entity @s container.19'}
+$function $(function) {slot: 'entity @s container.20'}
+$function $(function) {slot: 'entity @s container.21'}
+$function $(function) {slot: 'entity @s container.22'}
+$function $(function) {slot: 'entity @s container.23'}
+$function $(function) {slot: 'entity @s container.24'}
+$function $(function) {slot: 'entity @s container.25'}
+$function $(function) {slot: 'entity @s container.26'}
+$function $(function) {slot: 'entity @s container.27'}
+$function $(function) {slot: 'entity @s container.28'}
+$function $(function) {slot: 'entity @s container.29'}
+$function $(function) {slot: 'entity @s container.30'}
+$function $(function) {slot: 'entity @s container.31'}
+$function $(function) {slot: 'entity @s container.32'}
+$function $(function) {slot: 'entity @s container.33'}
+$function $(function) {slot: 'entity @s container.34'}
+$function $(function) {slot: 'entity @s container.35'}

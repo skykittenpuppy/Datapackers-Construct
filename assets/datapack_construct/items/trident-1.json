@@ -15,7 +15,7 @@
 					{
 						"type": "select",
 						"property": "custom_model_data",
-						"index": 1,
+						"index": 5,
 						"fallback": {
 							"type": "empty"
 						},
@@ -117,7 +117,7 @@
 					{
 						"type": "select",
 						"property": "custom_model_data",
-						"index": 2,
+						"index": 6,
 						"fallback": {
 							"type": "empty"
 						},
@@ -157,7 +157,7 @@
 					{
 						"type": "select",
 						"property": "custom_model_data",
-						"index": 1,
+						"index": 5,
 						"fallback": {
 							"type": "empty"
 						},
@@ -259,7 +259,7 @@
 					{
 						"type": "select",
 						"property": "custom_model_data",
-						"index": 2,
+						"index": 6,
 						"fallback": {
 							"type": "empty"
 						},
@@ -303,7 +303,7 @@
 						{
 							"type": "select",
 							"property": "custom_model_data",
-							"index": 1,
+							"index": 5,
 							"fallback": {
 								"type": "empty"
 							},
@@ -405,7 +405,7 @@
 						{
 							"type": "select",
 							"property": "custom_model_data",
-							"index": 2,
+							"index": 6,
 							"fallback": {
 								"type": "empty"
 							},

@@ -5,7 +5,7 @@
 			{
 				"type": "select",
 				"property": "custom_model_data",
-				"index": 0,
+				"index": 8,
 				"fallback": {
 					"type": "empty"
 				},

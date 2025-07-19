@@ -5,7 +5,7 @@
 			{
 				"type": "select",
 				"property": "custom_model_data",
-				"index": 0,
+				"index": 1,
 				"fallback": {
 					"type": "empty"
 				},
@@ -85,7 +85,7 @@
 			{
 				"type": "select",
 				"property": "custom_model_data",
-				"index": 1,
+				"index": 4,
 				"fallback": {
 					"type": "empty"
 				},
@@ -165,7 +165,7 @@
 			{
 				"type": "select",
 				"property": "custom_model_data",
-				"index": 2,
+				"index": 6,
 				"fallback": {
 					"type": "empty"
 				},
@@ -280,7 +280,7 @@
 			{
 				"type": "select",
 				"property": "custom_model_data",
-				"index": 3,
+				"index": 7,
 				"fallback": {
 					"type": "empty"
 				},

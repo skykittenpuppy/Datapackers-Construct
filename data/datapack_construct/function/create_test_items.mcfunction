@@ -3,6 +3,8 @@ setblock -146 71 -266 chest[facing=west,type=left]
 setblock -146 71 -265 chest[facing=west,type=right]
 setblock -146 71 -264 chest[facing=west,type=left]
 
+return fail
+
 execute as @r run function datapack_construct:tool/stick {where: 'block -146 71 -267 container.0',		type: oak}
 execute as @r run function datapack_construct:tool/stick {where: 'block -146 71 -267 container.1',		type: spruce}
 execute as @r run function datapack_construct:tool/stick {where: 'block -146 71 -267 container.2',		type: birch}
